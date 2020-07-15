@@ -30,7 +30,6 @@ var overviewerConfig = {
             "poititle": "Markers",
             "base": "",
             "bgcolor": "#1a1a1a",
-            "render_in_progress": true,
             "center": [
                 80,
                 96,
@@ -47,10 +46,9 @@ var overviewerConfig = {
             "world": "Core01",
             "isOverlay": false,
             "showlocationmarker": true,
-            "last_rendertime": 1594767430,
+            "last_rendertime": 1594771289,
             "name": "Daytime Render",
-            "defaultZoom": 1,
-            "forcerendertime": 0
+            "defaultZoom": 1
         }
     ],
     "worlds": [
@@ -66,7 +64,7 @@ var overviewerConfig = {
             "overlays": true,
             "compass": true
         },
-        "cacheTag": "1594771406",
+        "cacheTag": "1594771649",
         "north_direction": "lower-left",
         "debug": true
     }
