@@ -1,5 +1,5 @@
 var markersDB={
-  "Signs5d74_ae9c": {
+  "Signs1874_8350": {
     "created": false,
     "name": "Signs",
     "raw": [
@@ -16,6 +16,13 @@ var markersDB={
         "x": 80,
         "y": 70,
         "z": 259
+      },
+      {
+        "hovertext": "Kpop Town</br></br></br>",
+        "text": "Kpop Town</br></br></br>",
+        "x": -389,
+        "y": 68,
+        "z": -2333
       },
       {
         "hovertext": "Gradius</br>and</br>Haven&#x27;s</br>Base",
