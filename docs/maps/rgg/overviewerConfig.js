@@ -1,71 +1,71 @@
 var overviewerConfig = {
+    "worlds": [
+        "world"
+    ],
     "tilesets": [
         {
-            "path": "day",
-            "isOverlay": false,
+            "showlocationmarker": true,
+            "bgcolor": "#1a1a1a",
+            "base": "",
+            "defaultZoom": 1,
+            "poititle": "Markers",
+            "minZoom": 0,
             "imgextension": "png",
-            "zoomLevels": 8,
             "center": [
                 3,
                 80,
                 12
             ],
-            "defaultZoom": 1,
+            "north_direction": 0,
+            "path": "day",
             "name": "Daytime Render",
-            "bgcolor": "#1a1a1a",
-            "poititle": "Markers",
+            "last_rendertime": 1595469379,
+            "zoomLevels": 8,
+            "world": "world",
             "spawn": [
                 3,
                 80,
                 12
             ],
-            "last_rendertime": 1595465779,
-            "minZoom": 0,
-            "maxZoom": 8,
-            "base": "",
-            "showlocationmarker": true,
-            "north_direction": 0,
-            "world": "world"
+            "isOverlay": false,
+            "maxZoom": 8
         }
-    ],
-    "worlds": [
-        "world"
     ],
     "map": {
         "controls": {
-            "compass": true,
             "pan": true,
-            "spawn": true,
-            "coordsBox": true,
-            "mapType": true,
             "overlays": true,
-            "zoom": true
+            "compass": true,
+            "spawn": true,
+            "zoom": true,
+            "coordsBox": true,
+            "mapType": true
         },
-        "debug": true,
-        "cacheTag": "1595466160",
-        "north_direction": "lower-left"
+        "north_direction": "lower-left",
+        "cacheTag": "1595469761",
+        "debug": true
     },
     "CONST": {
+        "UPPERRIGHT": 1,
         "LOWERLEFT": 3,
+        "mapDivId": "mcmap",
+        "LOWERRIGHT": 2,
+        "UPPERLEFT": 0,
         "image": {
+            "bedMarker": "bed.png",
+            "spawnMarker2x": "markers/marker_home_2x.png",
+            "spawnMarker": "markers/marker_home.png",
+            "queryMarker": "markers/marker_location.png",
             "compass": {
                 "0": "compass_upper-left.png",
                 "1": "compass_upper-right.png",
                 "2": "compass_lower-right.png",
                 "3": "compass_lower-left.png"
             },
-            "spawnMarker": "markers/marker_home.png",
-            "queryMarker2x": "markers/marker_location_2x.png",
             "defaultMarker": "signpost.png",
-            "bedMarker": "bed.png",
-            "queryMarker": "markers/marker_location.png",
             "signMarker": "signpost_icon.png",
-            "spawnMarker2x": "markers/marker_home_2x.png"
+            "queryMarker2x": "markers/marker_location_2x.png"
         },
-        "LOWERRIGHT": 2,
-        "tileSize": 384,
-        "mapDivId": "mcmap",
-        "UPPERLEFT": 0,
-        "UPPERRIGHT": 1
+        "tileSize": 384
     }
 };
