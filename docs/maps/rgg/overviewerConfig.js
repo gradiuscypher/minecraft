@@ -1,71 +1,71 @@
 var overviewerConfig = {
-    "tilesets": [
-        {
-            "north_direction": 0,
-            "last_rendertime": 1596196579,
-            "maxZoom": 8,
-            "path": "day",
-            "imgextension": "png",
-            "center": [
-                3,
-                80,
-                12
-            ],
-            "showlocationmarker": true,
-            "poititle": "Markers",
-            "defaultZoom": 1,
-            "bgcolor": "#1a1a1a",
-            "isOverlay": false,
-            "minZoom": 0,
-            "spawn": [
-                3,
-                80,
-                12
-            ],
-            "name": "Daytime Render",
-            "world": "world",
-            "base": "",
-            "zoomLevels": 8
-        }
+    "worlds": [
+        "world"
     ],
     "CONST": {
-        "tileSize": 384,
-        "LOWERRIGHT": 2,
-        "UPPERRIGHT": 1,
-        "UPPERLEFT": 0,
         "image": {
+            "signMarker": "signpost_icon.png",
             "queryMarker": "markers/marker_location.png",
+            "queryMarker2x": "markers/marker_location_2x.png",
+            "bedMarker": "bed.png",
             "compass": {
                 "0": "compass_upper-left.png",
                 "1": "compass_upper-right.png",
                 "2": "compass_lower-right.png",
                 "3": "compass_lower-left.png"
             },
-            "queryMarker2x": "markers/marker_location_2x.png",
-            "spawnMarker": "markers/marker_home.png",
-            "signMarker": "signpost_icon.png",
             "defaultMarker": "signpost.png",
-            "bedMarker": "bed.png",
+            "spawnMarker": "markers/marker_home.png",
             "spawnMarker2x": "markers/marker_home_2x.png"
         },
-        "LOWERLEFT": 3,
-        "mapDivId": "mcmap"
+        "mapDivId": "mcmap",
+        "UPPERRIGHT": 1,
+        "tileSize": 384,
+        "LOWERRIGHT": 2,
+        "UPPERLEFT": 0,
+        "LOWERLEFT": 3
     },
     "map": {
-        "north_direction": "lower-left",
-        "cacheTag": "1596196962",
+        "debug": true,
         "controls": {
-            "compass": true,
             "pan": true,
-            "zoom": true,
-            "mapType": true,
-            "spawn": true,
             "overlays": true,
-            "coordsBox": true
+            "mapType": true,
+            "zoom": true,
+            "compass": true,
+            "coordsBox": true,
+            "spawn": true
         },
-        "debug": true
+        "north_direction": "lower-left",
+        "cacheTag": "1596200561"
     },
-    "worlds": [
-        "world"
+    "tilesets": [
+        {
+            "center": [
+                3,
+                80,
+                12
+            ],
+            "path": "day",
+            "bgcolor": "#1a1a1a",
+            "base": "",
+            "showlocationmarker": true,
+            "isOverlay": false,
+            "world": "world",
+            "minZoom": 0,
+            "poititle": "Markers",
+            "imgextension": "png",
+            "maxZoom": 8,
+            "north_direction": 0,
+            "last_rendertime": 1596200179,
+            "defaultZoom": 1,
+            "zoomLevels": 8,
+            "name": "Daytime Render",
+            "spawn": [
+                3,
+                80,
+                12
+            ]
+        }
     ]
 };
