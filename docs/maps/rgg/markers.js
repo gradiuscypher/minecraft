@@ -4,7 +4,7 @@ var markers={
       "checked": false,
       "createInfoWindow": true,
       "displayName": "Signs",
-      "groupName": "Signs5a74_4411",
+      "groupName": "Signs1574_9487",
       "icon": "signpost_icon.png"
     }
   ]
